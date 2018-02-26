@@ -77,5 +77,19 @@ creaMappa();
 let b = {x: 1, y:2, z:3};
 let c = {x: 5, y:6};
 let d = {x: 12};
-Object.assign(b,c,d);
-console.log(b.x);
+Object.assign(b,c,d); // copy to the first param the properties and values of second param and third
+console.log(b.x); // stampa x = 12
+
+function creaAstronaveBase(){
+
+}
+
+function creaAstronaveComplessa(){
+    let astronave = creaAstronaveBase();
+    Object.assign(astronave, {
+        bomb: function(){
+            //implementazione di bomb
+        }
+    });
+    return astronave;
+}
