@@ -45,3 +45,7 @@ function getNum(){
 }
 
 console.log(getNum());
+
+const a = 5; 
+console.log(a); 
+// a += 6;// generate error because const is not editable
