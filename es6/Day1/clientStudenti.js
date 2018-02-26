@@ -12,3 +12,4 @@ if(!giorno.messaggio){
 } else {
     console.log(`Il ${indiceConvertito} giorno della settimana è ${giorno.messaggio}`);
 }
+
