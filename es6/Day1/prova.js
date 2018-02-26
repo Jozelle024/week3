@@ -85,10 +85,10 @@ function creaAstronaveBase(){
         fly: function(){
 
         },
-        floor: function(){
+        shoot: function(){
 
         },
-        jump: function(){
+        destroy: function(){
 
         }
     };
