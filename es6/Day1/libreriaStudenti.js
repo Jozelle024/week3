@@ -1,6 +1,5 @@
 /*jshint esversion: 6 */
-const moment = require('./node_modules/moment/min/moment.min.js');
-const momentIt = require('./node_modules/moment/locale/it.js');
+const moment = require('./node_modules/moment/min/moment-with-locales.min.js');
 
 const arrayMesi = ['gennaio','febrraio','marzo', 'aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'];
 
@@ -38,7 +37,6 @@ const getGiorno = g => {
 };
 
 const convertIndice = (i) => {return arrayIndice[i];};
-    
 const getMesi = () => {return arrayMesi;};
 const getSettimane = () =>{return arraySettimana;};
 
