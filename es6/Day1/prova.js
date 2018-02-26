@@ -2,13 +2,13 @@
 
 for(var i = 0; i < 5; i ++){
     setTimeout(function(){
-        console.log(i);
+        // console.log(i);
     }, 1000);
 }
 
 for(let j = 0; j < 5; j++){
     setTimeout(function(){
-        console.log(j);
+       // console.log(j);
     }, 1000);
 }
 
@@ -122,3 +122,9 @@ function Person(){
 }
 var p = new Person();
 
+const simple = a => a > 15 ? 15 : a; // 15 : a if a > 15, this 
+console.log(simple(16)); // prints 15
+console.log(simple(10)); // prints 10
+
+const max = (a,b) => a < b ? a : b;
+console.log(max(10,100));
