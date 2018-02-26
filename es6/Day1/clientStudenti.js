@@ -1,6 +1,13 @@
 /*jshint esversion: 6 */
 const libreria = require('./libreriaStudenti.js');
 
-const string =  libreria.getGiorno(0);
+const indice = 2;
+const indiceConvertito = libreria.convertIndice(indice);
+const giorno =  libreria.getGiorno(indice);
 
-console.log(`Primo giorno della settimana è ${string}`);
+
+if(!giorno.messaggio){
+    console.log(giorno.messaggio);
+} else {
+    console.log(`Il ${indiceConvertito} giorno della settimana è ${giorno.messaggio}`);
+}

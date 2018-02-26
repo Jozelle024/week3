@@ -11,5 +11,8 @@
     "javascript"
   ],
   "author": "Jozelle Lauzon",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.20.1"
+  }
 }
