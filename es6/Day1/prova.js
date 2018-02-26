@@ -81,7 +81,17 @@ Object.assign(b,c,d); // copy to the first param the properties and values of se
 console.log(b.x); // stampa x = 12
 
 function creaAstronaveBase(){
+    return {
+        fly: function(){
 
+        },
+        floor: function(){
+
+        },
+        jump: function(){
+
+        }
+    };
 }
 
 function creaAstronaveComplessa(){
