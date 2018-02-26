@@ -103,3 +103,11 @@ function creaAstronaveComplessa(){
     });
     return astronave;
 }
+
+// arrow function
+const somma = function(a,b){
+    return a + b;
+};
+
+const sommaArrow = (a,b) => a + b;
+// arrow function
