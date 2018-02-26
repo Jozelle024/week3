@@ -73,3 +73,9 @@ function creaMappa(options){
 }
 
 creaMappa();
+
+let b = {x: 1, y:2, z:3};
+let c = {x: 5, y:6};
+let d = {x: 12};
+Object.assign(b,c,d);
+console.log(b.x);
