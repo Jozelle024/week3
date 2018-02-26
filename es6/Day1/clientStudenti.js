@@ -1,15 +1,20 @@
 /*jshint esversion: 6 */
 const libreria = require('./libreriaStudenti.js');
 const moment = require('./node_modules/moment/min/moment.min.js');
+const momentIt = require('./node_modules/moment/locale/it.js');
 
-const indice = 2;
-const indiceConvertito = libreria.convertIndice(indice);
-const giorno =  libreria.getGiorno(indice);
+const indiceGiorno = 0;
+const indiceMese = 5;
+const indiceConvertito = libreria.convertIndice(indiceGiorno);
+const giorno =  libreria.getGiorno(indiceGiorno);
+const mese = libreria.getMese(indiceMese);
 
 
-if(!giorno.messaggio){
+if(!giorno.successo){
     console.log(giorno.messaggio);
 } else {
-    console.log(`Il ${indiceConvertito} giorno della settimana è ${giorno.messaggio}`);
+    console.log(`${indiceConvertito} giorno della settimana è ${giorno.messaggio}`);
 }
+
+console.log(mese);
 

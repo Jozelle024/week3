@@ -1,10 +1,16 @@
 /*jshint esversion: 6 */
+const moment = require('./node_modules/moment/min/moment.min.js');
+const momentIt = require('./node_modules/moment/locale/it.js');
 
 const arrayMesi = ['gennaio','febrraio','marzo', 'aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'];
 
 const arraySettimana = ['lunedi', 'martedi','mercoledi','giovedi','venerdi','sabato','domenica'];
 const arrayIndice = ['Il primo','Il secondo','Il terzo','Il quarto',' Il quinto','Il sesto',' Il settimo', 'L\'ottavo', 'Il nono', 'Il decimo', 'L\'undicesimo', 'Il dodicesimo'];
-const getMese = n =>{return arrayMesi[n];};
+const getMese = n =>{
+    
+    // const mese = moment().month(n);
+    return moment().locale('it').month(n).format('MMMM');
+};
 const getGiorno = g => {
 
     const indice = parseInt(g);
@@ -18,9 +24,10 @@ const getGiorno = g => {
         return result;
         
     }else {
-        if(indice > 0 && indice < 7){
+        if(indice >=0 && indice < 7){
             result.successo = true;
-            result.messaggio = arraySettimana[g];
+            //result.messaggio = arraySettimana[g];
+            result.messaggio = moment().locale('it').day((g + 1)% 7 ).format('dddd');
             return result;
         } else {
             result.successo = false;
