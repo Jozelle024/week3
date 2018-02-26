@@ -51,11 +51,25 @@ console.log(a);
 // a += 6;// generate error because const is not editable
 
 
-// backtick ``
+// backtick `` template literals interpolation
 const numero = 5;
 const interpolata = `hai ${numero} elementi nel carrello`; // backtick alt +9,  - template literals
 const senzatemplate = 'hai ' + numero + ' elementi nel carrello'; 
 
+// multilinea
 const multilinea = `linea 1
                     linea 2`;
 console.log(multilinea);
+
+// tagged template literal - i18n - npm package that translates
+
+function creaMappa(options){
+    const opzioniDefault = {
+        width: 900,
+        height: 500,
+        coordinates: [45.464211, 9.191383]
+    };
+    options = Object.assign(opzioniDefault,options);
+}
+
+creaMappa();
