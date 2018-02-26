@@ -37,7 +37,7 @@ const getGiorno = g => {
     }
 };
 
-const convertIndice = (i) => {return arrayIndice[i]};
+const convertIndice = (i) => {return arrayIndice[i];};
     
 const getMesi = () => {return arrayMesi;};
 const getSettimane = () =>{return arraySettimana;};
