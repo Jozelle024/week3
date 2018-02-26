@@ -1,10 +1,13 @@
 .contenitore{
     display: flex;
-    /* justify-content: space-around; */
-    max-width: 980px;
+    /* justify-content: space-around; 
+    max-width: 980px;*/
+    height: 500px;
     margin: 0 auto 400px;
     border: 1px solid #6699cc;
-    flex-direction: column;
+    /* flex-direction: column; */
+    /*flex-wrap: wrap;*/
+    /* align-items: flex-end; */
 }
 
 .elemento {
@@ -13,6 +16,7 @@
     font-size: 2em;
     color: #fff;
     padding: 0.5em;
+    width:50%;
 }
 /*
 .elementoA{
