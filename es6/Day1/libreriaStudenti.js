@@ -5,11 +5,11 @@ const arrayMesi = ['gennaio','febrraio','marzo', 'aprile','maggio','giugno','lug
 const arraySettimana = ['lunedi', 'martedi','mercoledi','giovedi','venerdi','sabato','domenica'];
 
 const getMese = n =>{return arrayMesi[n];};
-const getGiorno = g => {return arraySettimana[n];};
+const getGiorno = g => {return arraySettimana[g];};
 const getMesi = () => {return arrayMesi;};
 const getSettimane = () =>{return arraySettimana;};
 
-module.exports = {
+module.exports = { // exports render this to be used outside
     getMese,
     getGiorno,
     getMesi,
