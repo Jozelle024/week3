@@ -111,3 +111,14 @@ const somma = function(a,b){
 
 const sommaArrow = (a,b) => a + b;
 // arrow function
+
+function Person(){
+    let that = this;
+    that.age = 0;
+    setInterval(function growUp(){
+        that.age ++;
+        // console.log(that.age); //prints NaN when this.age
+    }, 1000);
+}
+var p = new Person();
+
