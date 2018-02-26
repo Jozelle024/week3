@@ -49,3 +49,7 @@ console.log(getNum());
 const a = 5; 
 console.log(a); 
 // a += 6;// generate error because const is not editable
+
+const numero = 5;
+const interpolata = `hai ${numero} elementi nel carrello`; // backtick alt +9,  - template literals
+const senzatemplate = 'hai ' + numero + ' elementi nel carrello'; 
