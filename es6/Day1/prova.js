@@ -128,3 +128,4 @@ console.log(simple(10)); // prints 10
 
 const max = (a,b) => a < b ? a : b;
 console.log(max(10,100));
+
