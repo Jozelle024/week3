@@ -1,7 +1,10 @@
 .contenitore{
+    display: flex;
+    /* justify-content: space-around; */
     max-width: 980px;
     margin: 0 auto 400px;
     border: 1px solid #6699cc;
+    flex-direction: column;
 }
 
 .elemento {
@@ -11,3 +14,15 @@
     color: #fff;
     padding: 0.5em;
 }
+/*
+.elementoA{
+    flex-grow: 1;
+}
+.elementoB{
+    flex-grow: 2;
+}
+
+.elementoC {
+    flex-grow: 1;
+}
+*/
