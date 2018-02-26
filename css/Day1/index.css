@@ -1,0 +1,13 @@
+.contenitore{
+    max-width: 980px;
+    margin: 0 auto 400px;
+    border: 1px solid #6699cc;
+}
+
+.elemento {
+    background-color: #6699cc;
+    border: 1px solid #fff;
+    font-size: 2em;
+    color: #fff;
+    padding: 0.5em;
+}
