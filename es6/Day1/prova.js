@@ -50,6 +50,12 @@ const a = 5;
 console.log(a); 
 // a += 6;// generate error because const is not editable
 
+
+// backtick ``
 const numero = 5;
 const interpolata = `hai ${numero} elementi nel carrello`; // backtick alt +9,  - template literals
 const senzatemplate = 'hai ' + numero + ' elementi nel carrello'; 
+
+const multilinea = `linea 1
+                    linea 2`;
+console.log(multilinea);
