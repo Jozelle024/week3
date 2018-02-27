@@ -18,10 +18,10 @@ const scontoDopo19 = new Promise(
 const consegnaGratuita = new Promise(
     function(resolve,reject){
         if(funzioni.promozioneConsegna()){
-            console.log('consegna gratuita resolve');
+            // console.log('consegna gratuita resolve');
             resolve();
         } else {
-            console.log('consegna gratuita reject');
+            //console.log('consegna gratuita reject');
             reject();
         }
     }

@@ -2,6 +2,7 @@
 
 const promesse = require('./libreriaPromesse.js');
 
+
 const subTotale = 50;
 const spedizione = 5;
 
@@ -19,4 +20,14 @@ const consumaPromessa = function(){
     });
 };
 
-consumaPromessa();
+// consumaPromessa();
+
+/*const dati = richiestaUtente.servizioUser
+    .then(function(data){
+        console.log(data);
+        const {name,location} = data.results[0];
+        console.log(location);
+    });
+
+*/
+
