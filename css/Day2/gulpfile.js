@@ -13,12 +13,13 @@ gulp.task('copiaFile', function(){
     gulp.src('./javascript/*.js').pipe(gulp.dest('dist'));
     gulp.src('./css/*.css').pipe(gulp.dest('dist'));
 });
+
 gulp.task('sass', function(){
-    return gulp.src('./sass/*.css')
+    return gulp.src('./sass/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./css'));
 });
 
-gulp.task('sass:watch',function(){
+gulp.task('sassWatch',function(){
     gulp.watch('./sass/*.scss', ['sass']);
 });
