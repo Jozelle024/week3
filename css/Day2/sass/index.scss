@@ -6,7 +6,7 @@ $warning-color: #fcf8e3;
 $success-color: #dff0d8;
 $danger-color:#f2dede;
 
-$template: bright;
+$template: original;
 @mixin colors {
     @if $template == dark{
         background-color: #000;
@@ -15,8 +15,8 @@ $template: bright;
         background-color: #fff;
         color: #000;
     } @else {
-        background-color:#008200;
-        columns: #feff09;;
+        background-color:$secondary-color;
+        color: $primary-color;
     }
 }
 
@@ -44,6 +44,7 @@ body{
     background:$alternate-color;
     width: 200px;
     height: 30px;
+    
     &:hover{
         background: $primary-color;
         color: $secondary-color;
