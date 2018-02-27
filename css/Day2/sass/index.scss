@@ -1,10 +1,23 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color:#380E0A;
 $secondary-color:#FE948A;
+$alternate-color:#BC1101;
 
 
 body{
     font: 100% $font-stack;
-    color: $primary-color;
     background: $secondary-color;
 }
+
+#box {
+    background-color: $primary-color;
+    header{
+        background-color: $secondary-color;
+        h1{ background-color: $alternate-color;}
+    }
+    section{
+        background-color: $secondary-color;
+        h2{ background-color: $primary-color;}
+    }
+}
+
