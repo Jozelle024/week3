@@ -1,0 +1,17 @@
+{
+  "name": "day02",
+  "version": "1.0.0",
+  "description": "demo secondo giorno",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.20.1"
+  }
+}
