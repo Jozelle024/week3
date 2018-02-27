@@ -21,18 +21,29 @@ body {
     background: #380E0A;
     color: #FE948A; }
 
-.warning, .success, .danger {
+.warning {
   width: 300px;
   height: 50px;
   border-radius: 10px;
   text-align: center;
-  vertical-align: middle; }
-
-.warning {
-  background-color: #fcf8e3; }
+  vertical-align: middle;
+  background-color: #fcf8e3;
+  /*background-color:$warning-color;*/ }
 
 .success {
-  background-color: #dff0d8; }
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #dff0d8;
+  /*background-color: $success-color*/ }
 
 .danger {
-  background-color: #f2dede; }
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #f2dede;
+  /*background-color: $danger-color*/ }
