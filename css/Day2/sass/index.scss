@@ -6,14 +6,30 @@ $warning-color: #fcf8e3;
 $success-color: #dff0d8;
 $danger-color:#f2dede;
 
+$template: bright;
+@mixin colors {
+    @if $template == dark{
+        background-color: #000;
+        color: #fff;
+    } @else if $template == bright {
+        background-color: #fff;
+        color: #000;
+    } @else {
+        background-color:#008200;
+        columns: #feff09;;
+    }
+}
 
 body{
     font: 100% $font-stack;
     background: $secondary-color;
+    
+    @include colors;
 }
 
 #box {
     background-color: $primary-color;
+    color: $secondary-color;
     header{
         background-color: $secondary-color;
         h1{ background-color: $alternate-color;}
@@ -57,4 +73,6 @@ body{
     @include message($danger-color);
     /*background-color: $danger-color*/
 }
+
+
 

@@ -1,9 +1,12 @@
 body {
   font: 100% Helvetica, sans-serif;
-  background: #FE948A; }
+  background: #FE948A;
+  background-color: #fff;
+  color: #000; }
 
 #box {
-  background-color: #380E0A; }
+  background-color: #380E0A;
+  color: #FE948A; }
   #box header {
     background-color: #FE948A; }
     #box header h1 {
