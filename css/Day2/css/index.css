@@ -14,7 +14,9 @@ body {
       background-color: #380E0A; }
 
 .button {
-  background: #BC1101; }
+  background: #BC1101;
+  width: 200px;
+  height: 30px; }
   .button:hover {
     background: #380E0A;
     color: #FE948A; }

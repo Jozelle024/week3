@@ -26,6 +26,8 @@ body{
 
 .button{
     background:$alternate-color;
+    width: 200px;
+    height: 30px;
     &:hover{
         background: $primary-color;
         color: $secondary-color;
