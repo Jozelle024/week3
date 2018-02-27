@@ -2,6 +2,9 @@ $font-stack: Helvetica, sans-serif;
 $primary-color:#380E0A;
 $secondary-color:#FE948A;
 $alternate-color:#BC1101;
+$warning-color: #fcf8e3;
+$success-color: #dff0d8;
+$danger-color:#f2dede;
 
 
 body{
@@ -27,5 +30,28 @@ body{
         background: $primary-color;
         color: $secondary-color;
     }
+}
+
+%message{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.warning{
+    @extend %message;
+    background-color:$warning-color;
+}
+
+.success{
+    @extend %message;
+    background-color: $success-color
+}
+
+.danger{
+    @extend %message;
+    background-color: $danger-color
 }
 
