@@ -1,0 +1,19 @@
+{
+  "name": "day2",
+  "version": "1.0.0",
+  "description": "Demo secondo giorno",
+  "main": "esPromise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "javascript",
+    "promise"
+  ],
+  "author": "Jozelle Lauzon",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.20.1"
+  }
+}
