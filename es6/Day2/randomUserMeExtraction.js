@@ -29,10 +29,10 @@ const dati = richiestaUtente.servizioUser50
         console.log(primo.fullName);
         console.log(primo.fullLocation);
 
-        const c = new personaClass.Coordinate(5.6434,6.453);
+        const c = new personaClass.Coordinate(45.6434,6.453);
         console.log(c.latitudine);
 
-        console.log(primo.coordinate.latitudine);
+        console.log(primo.coordinate);
 
 });
 
