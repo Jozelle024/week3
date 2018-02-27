@@ -12,3 +12,9 @@ body {
     background-color: #FE948A; }
     #box section h2 {
       background-color: #380E0A; }
+
+.button {
+  background: #BC1101; }
+  .button:hover {
+    background: #380E0A;
+    color: #FE948A; }

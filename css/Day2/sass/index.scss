@@ -21,3 +21,11 @@ body{
     }
 }
 
+.button{
+    background:$alternate-color;
+    &:hover{
+        background: $primary-color;
+        color: $secondary-color;
+    }
+}
+
