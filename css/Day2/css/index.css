@@ -52,13 +52,20 @@ body {
   /*background-color: $danger-color*/ }
 
 li {
-  height: 64px; }
+  height: 64px;
+  width: 64px; }
 
 .icn-facebook {
-  background: url(../img/icn-facebook.png) no-repeat left top; }
+  background: url(../img/icn-facebook.png) no-repeat left top;
+  background-color: #380E0A;
+  color: #BC1101; }
 
 .icn-instagram {
-  background: url(../img/icn-instagram.png) no-repeat left top; }
+  background: url(../img/icn-instagram.png) no-repeat left top;
+  background-color: #380E0A;
+  color: #BC1101; }
 
 .icn-linkedn {
-  background: url(../img/icn-linkedn.png) no-repeat left top; }
+  background: url(../img/icn-linkedn.png) no-repeat left top;
+  background-color: #380E0A;
+  color: #BC1101; }
