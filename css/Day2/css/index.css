@@ -50,3 +50,15 @@ body {
   vertical-align: middle;
   background-color: #f2dede;
   /*background-color: $danger-color*/ }
+
+li {
+  height: 64px; }
+
+.icn-facebook {
+  background: url(../img/icn-facebook.png) no-repeat left top; }
+
+.icn-instagram {
+  background: url(../img/icn-instagram.png) no-repeat left top; }
+
+.icn-linkedn {
+  background: url(../img/icn-linkedn.png) no-repeat left top; }

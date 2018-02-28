@@ -75,5 +75,11 @@ body{
     /*background-color: $danger-color*/
 }
 
-
-
+li{
+    height: 64px;
+}
+@each $icon in facebook, instagram, linkedn{
+    .icn-#{$icon} {
+        background: url(../img/icn-#{$icon}.png) no-repeat left top;
+    }
+}
