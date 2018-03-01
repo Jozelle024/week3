@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo Bootstrap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="boot.css">
+</head>
+<body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 order-sm-12">primo</div>
+                <div class="col-md-4 order-sm-1">secondo</div>
+                <div class="col-md-4">terzo</div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="card bg-warning text-white">
+                        <div class="card-header bg-warning">Header Card</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Titolo Card</h4>
+                            <p class="card-text">Testo di esempio usato nella card</p>
+                        </div>
+                        <div class="card-footer bg-warning">Footer Card</div>
+                    </div>                            
+                </div>
+                <div class="col-md">
+                    <div class="card bg-success text-white">
+                            <div class="card-header bg-success">Header Card</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Titolo Card</h4>
+                                <p class="card-text">Testo di esempio usato nella card</p>
+                            </div>
+                            <div class="card-footer bg-success">Footer Card</div>
+                    </div>                            
+                </div>
+                <div class="col-md">
+                    <div class="card bg-danger text-white">
+                            <div class="card-header bg-danger">Header Card</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Titolo Card</h4>
+                                <p class="card-text">Testo di esempio usato nella card</p>
+                            </div>
+                            <div class="card-footer bg-danger">Footer Card</div>
+                    </div>                            
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="card">
+                        <div class="card-header bg-success text-center text-white">Image Header Card</div>
+                        <!--Card image-->
+                        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Title-->
+                            <h4 class="card-title">Card title</h4>
+                            <!--Text-->
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Button</a>
+                        </div>                    
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card">
+                        <div class="card-header bg-warning text-center text-white">Image Header Card</div>
+                        <!--Card image-->
+                        <div class="media">
+                                <img class="d-flex mr-3 raggio" src="https://randomuser.me/api/portraits/med/women/93.jpg" alt="Generic placeholder image">
+                                <div class="media-body">
+                                    <h5 class="mt-0 font-weight-bold text-center">Media heading</h5>
+                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
+                                    Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+                                    nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                </div>
+                        </div>
+                        <!--Card content-->
+                        <div class="card-body">
+                            <!--Title-->
+                            <h4 class="card- text-center">Card title</h4>
+                            <!--Text-->
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-success">Button</a>
+                        </div>                    
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/tether/dist/js/tether.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

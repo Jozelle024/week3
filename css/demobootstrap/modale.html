@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Finestra modale</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-3">Buongiorno a tutti</h1>
+            <p class="lead">Questo è un jumbotron</p>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Notifiche
+                    <span id="mybadge" class="badge badge-primary badge-pill">1</span>
+                </li>
+            </ul>            
+            <hr class="my-4">
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#modale">
+                    Apri Modale
+            </button>
+        </div>
+    </div>
+
+    <div id="modale" class="modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Avvia contatore</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Premi OK per avviare il contatore</p>
+            </div>
+            <div class="modal-footer">
+                <button id="avviaContatore" type="button" class="btn btn-primary">OK</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Annulla</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+        var contatore = 1;
+        $(document).ready(function(){
+        });
+        $("#avviaContatore").click(function(){
+            $('#modale').modal('hide');
+            setInterval(function(){
+                contatore +=1;
+                $("#mybadge").text(contatore);
+            },1000);
+        });
+    </script>
+</body>
+</html>

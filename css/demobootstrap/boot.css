@@ -1,0 +1,25 @@
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.green2 {
+    background-color: rgb(11, 240, 11);
+}
+
+.raggio {
+    border-radius: 50%;
+}
