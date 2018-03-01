@@ -1,0 +1,23 @@
+{
+  "name": "week3",
+  "version": "1.0.0",
+  "description": "Week 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhel024/week3.git"
+  },
+  "keywords": [
+    "css",
+    "es6"
+  ],
+  "author": "Jozelle Lauzon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zhel024/week3/issues"
+  },
+  "homepage": "https://github.com/Zhel024/week3#readme"
+}
